@@ -1,147 +1,133 @@
-# SQL Customer & Product Behavior Analytics Dashboard
+# SQL Data Analytics & Business Intelligence Project
 
-## Project Overview
-This project demonstrates an end-to-end SQL analytics workflow, starting from exploratory data analysis (EDA) and progressing into advanced business analytics reporting.
+## Overview
+Built an end-to-end data analytics project using SQL Server and Power BI to transform raw transactional sales data into actionable business insights.
 
-Using SQL Server, I analyzed transactional sales data, built customer and product analytical views, generated key business KPIs, segmented customers and products, and prepared the data for Power BI dashboard visualization.
-
-The project simulates a real-world analytics pipeline used by data analysts and business intelligence teams.
-
-<img width="1259" height="489" alt="image" src="https://github.com/user-attachments/assets/0e95acca-41c3-4e38-a8dd-cdb823fc738b" />
-
----
-
-## Project Objectives
-- Perform exploratory data analysis (EDA) on transactional sales data
-- Analyze customer purchasing behavior
-- Analyze product performance and lifecycle metrics
-- Segment customers based on business value
-- Segment products based on revenue performance
-- Build reusable analytical SQL views for reporting
-- Prepare data for Power BI dashboard development
+This project demonstrates real-world data analyst / BI analyst workflows including exploratory data analysis, advanced analytics, customer segmentation, product performance analysis, and dashboard reporting.
 
 ---
 
 ## Tools & Technologies
 - SQL Server
 - T-SQL
-- SQL Views / CTEs
 - Power BI
-- Data Warehousing Concepts
+- Data Warehousing
 - Exploratory Data Analysis (EDA)
+- Advanced Analytics
 - Business Intelligence Reporting
 
+<img width="1259" height="489" alt="image" src="https://github.com/user-attachments/assets/0e95acca-41c3-4e38-a8dd-cdb823fc738b" />
 ---
 
 ## Project Workflow
 
-### 1. Data Preparation
-- Created analytics-ready SQL environment
-- Loaded structured sales/customer/product datasets
-- Validated schema relationships and data consistency
+### 1. Database Exploration
+Validated schema design, relationships, and data quality to understand the underlying sales data structure.
 
 ### 2. Exploratory Data Analysis (EDA)
 Performed foundational business analysis including:
+- Total sales
+- Order volume
+- Product counts
+- Customer counts
+- Average selling price
+- Sales trends over time
+- Top / bottom performers
+- Category and geographic analysis
 
-#### Database Exploration
-- schema inspection
-- table validation
-- relationship verification
+### 3. Advanced Analytics
+Applied deeper business intelligence techniques:
 
-#### Dimension Analysis
-- customers by country
-- customers by gender
-- products by category
+**Magnitude Analysis**
+- measured sales scale across products and customer groups
 
-#### Measure Analysis
-- total sales
-- total quantity sold
-- average selling price
-- total orders
-- total products
-- total customers
+**Ranking Analysis**
+- identified top and lowest-performing products/customers
 
-#### Ranking Analysis
-- top-performing products
-- lowest-performing products
-- top customers by revenue
+**Change-Over-Time Analysis**
+- tracked monthly sales trends and business performance shifts
 
-#### Time Analysis
-- monthly sales trends
-- cumulative sales growth
-- change-over-time metrics
+**Cumulative Analysis**
+- analyzed running totals and long-term growth
 
-#### Segmentation Analysis
-- product cost segmentation
-- customer behavior segmentation
+**Part-to-Whole Analysis**
+- measured contribution percentages by category/segment
 
----
+**Segmentation Analysis**
+- grouped customers and products into meaningful business segments
 
-## Advanced Analytics
+### 4. Analytical Reporting Views
+Built reusable SQL reporting views for dashboard consumption.
 
-### Customer Analytics View
-Built a final customer reporting view containing:
-
-- customer identity details
-- age and age groups
+#### Customer Analytics View
+Generated KPIs including:
+- customer demographics
+- age segmentation
 - total orders
 - total sales
-- total quantity purchased
-- total unique products purchased
+- total products purchased
+- recency
 - customer lifespan
-- recency analysis
-- average sale value
+- average order value
 - average monthly spend
 - customer segmentation:
   - VIP
   - Regular
   - New
 
-Example business questions answered:
-- Who are the highest-value customers?
-- Which customers are inactive?
-- What customer segment drives most revenue?
-- How does spending differ across age groups?
-
----
-
-### Product Analytics View
-Built a final product reporting view containing:
-
-- product information
-- category / subcategory
-- cost
-- total orders
+#### Product Analytics View
+Generated KPIs including:
+- product category / subcategory
 - total sales
 - total quantity sold
-- total customers
 - product lifespan
-- recency since last sale
+- recency
 - average selling price
-- average order revenue
 - average monthly revenue
-- product performance segmentation:
+- average order revenue
+- product segmentation:
   - High Performer
   - Mid Range
   - Low Performer
 
-Example business questions answered:
-- Which products generate the most revenue?
-- Which products are underperforming?
-- Which categories contribute most to sales?
-- Which products are becoming inactive?
-
 ---
 
 ## Power BI Dashboard
-Interactive dashboard built using the final analytical SQL views.
+Built an interactive business intelligence dashboard using the final SQL analytical views.
 
-Dashboard includes:
-- executive KPI overview
-- customer behavior analysis
-- customer segmentation insights
-- product performance analysis
-- sales trends
-- top customers/products
-- recency & retention metrics
+Dashboard features:
+- Executive KPI overview
+- Customer behavior insights
+- Customer segmentation analysis
+- Product performance monitoring
+- Sales trend analysis
+- Top customers / top products
+- Recency & retention metrics
+- Interactive filtering for business exploration
+
+---
+
+## Key Skills Demonstrated
+- SQL data analysis
+- Advanced T-SQL
+- Common Table Expressions (CTEs)
+- Analytical reporting
+- KPI development
+- Customer segmentation
+- Product performance analytics
+- Dashboard data modeling
+- Power BI visualization
+- Business intelligence storytelling
+
+---
+
+## Business Value
+This project demonstrates how raw transactional data can be transformed into decision-ready insights for customer retention, revenue optimization, and product strategy.
+
+---
+
+## Author
+**Davit Sagrishvili**  
+Temple University — Computer Science & Finance  
+SQL | Power BI | Python | Azure | Data Analytics | Business Intelligence
 
